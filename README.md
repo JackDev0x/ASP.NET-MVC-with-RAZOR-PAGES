@@ -32,3 +32,6 @@ Routing is configured in the Program.cs file and is used to define custom URL ad
 
 - **Frontend Implementation**  
 The frontend layer of the application includes simple CSS and Bootstrap styles. While it is a basic implementation, it provides a user-friendly interface.
+
+
+In this application, I use product data for demonstration purposes. Please note that this data is sample and does not reflect real products or prices. It is solely provided as test data for presentation purposes.
