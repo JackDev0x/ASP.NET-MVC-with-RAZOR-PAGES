@@ -1,6 +1,13 @@
 # ASP.NET-MVC-with-RAZOR-PAGES
 ## E-commerce web application for store services (with backend technologies in ASP .NET Core 6.0). 
 
+### Description
+
+This application enables users to browse a store's sandstone products, add them to their cart, and place orders. The main view is divided into three sections: category names, a product list, and a preview of the current cart contents. The product summary list is generated dynamically, based on the selected category. TagHelpers attributes in the application's logic enhances navigation between different product pages. Adding items to the cart or clicking "Your Cart" button in the cart preview component redirects user to cart view. Added products and their quantities are globally accessible data, because of implemented session mechanism in the program. Users have an option to continue shopping or proceed to checkout. Clicking the checkout button redirects user to a shipping information form. The form requires proper validation before an order can be placed. Once an order is placed, users can return to the home page - customer data, along with the quantity and type of selected products, is saved in a local database. Data exchange in the application involves reading from or writing to a local database, facilitated by the use of context classes and customized dependency injection.
+
+**In this application, I use product data for demonstration purposes. Please note that this data is sample and does not reflect real products or prices. It is solely provided as test data for presentation purposes.**
+
+
 ### Architecture and Technologies
 
 - **MVC Pattern**  
@@ -32,6 +39,3 @@ Routing is configured in the Program.cs file and is used to define custom URL ad
 
 - **Frontend Implementation**  
 The frontend layer of the application includes simple CSS and Bootstrap styles. While it is a basic implementation, it provides a user-friendly interface.
-
-
-In this application, I use product data for demonstration purposes. Please note that this data is sample and does not reflect real products or prices. It is solely provided as test data for presentation purposes.
