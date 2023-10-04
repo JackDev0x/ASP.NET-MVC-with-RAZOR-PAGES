@@ -1,0 +1,18 @@
+﻿@model Cart
+
+<div class="row m-4 p-4 text-center">
+    <form asp-page="/Cart" method="get">
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-outline-primary btn-sm btn-rectangle" style="transition: background-color 0.3s ease;">
+                Your cart:
+            </button>
+        </div>
+    </form>
+</div>
+
+<div>
+@foreach (var line in Model.Lines)
+{
+    <p>@line.Quantity x @line._product.Name</p>
+}
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandstoneStore", "SandstoneStore\SandstoneStore.csproj", "{EF07FAC5-422F-4521-9FB5-F8F125780C3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF07FAC5-422F-4521-9FB5-F8F125780C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF07FAC5-422F-4521-9FB5-F8F125780C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF07FAC5-422F-4521-9FB5-F8F125780C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF07FAC5-422F-4521-9FB5-F8F125780C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27AB6A9B-89CC-46D9-AA4C-93BFEF999F98}
+	EndGlobalSection
+EndGlobal
